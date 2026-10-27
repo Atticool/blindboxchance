@@ -27,7 +27,7 @@ function generateBoxes() {
     }
     let winCount = 0;
     for (let i = 0; i < columns; i++) {
-        let text = document.createTextNode("----------")
+        let text = document.createTextNode("")
         let cell = tableHeadRow.insertCell(i)
         cell.appendChild(text)
     }
@@ -81,6 +81,7 @@ function generateBoxes() {
         winElement.id = 'winID'
         document.body.insertBefore(winElement, document.getElementById('bottom'))
         buttonIDElement.disabled = false
+        document.body.style.backgroundColor = '#FF5885';
     }, calcDelay(numBoxes))
 
     document.body.insertBefore(table, document.getElementById('bottom'))
