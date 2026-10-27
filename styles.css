@@ -1,0 +1,21 @@
+:root {
+    --MakeSomeNoiseYellow: #FFF268;
+    --MakeSomeNoiseBlue: #91D5DC;
+    --MakeSomeNoisePink: #FF5885;
+}
+
+#tableHeadRow {
+    color: var(--MakeSomeNoiseYellow);
+}
+
+#tableID {
+    display: flex; 
+    justify-content: center;
+}
+
+body {
+    background-color: var(--MakeSomeNoiseYellow);
+    font-family: Futura;
+    text-align: center;
+    
+}
